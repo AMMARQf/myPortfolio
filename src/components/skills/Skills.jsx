@@ -1,6 +1,6 @@
 import React from "react";
 import "./skills.css";
-import CSS from "../../assets/Css3.svg";
+import CSS from "../../assets/css3.svg";
 import Express from "../../assets/expressjs.svg";
 import Html5 from "../../assets/html5.svg";
 import Javascript from "../../assets/javascript.svg";
