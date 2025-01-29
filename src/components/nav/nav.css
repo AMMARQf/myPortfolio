@@ -1,0 +1,58 @@
+nav {
+    width: 300px;
+    height: 60px;
+    border-radius: 30px;
+    backdrop-filter: blur(13px);
+    background: rgba(0, 0, 0, 0.164);
+    position: fixed;
+    bottom: 10px;
+    padding: 5px;
+    right: 50%;
+    transform: translateX(50%);
+    z-index: 1001;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.3rem;
+}
+
+nav a,
+nav div{
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+}
+
+nav a:hover {
+    background: var(--border-color);
+}
+
+.not-clickable {
+    color: #fff3;
+    cursor: default;
+}
+
+.active {
+    background: var(--color-bg-primary);
+    font-weight: 900;
+    color: var(--color-primary);
+}
+
+.active:hover {
+    background: var(--color-bg-primary);
+
+}
+
+@media (max-width: 600px) {
+    nav {
+        height: 60px;
+        border-radius: 30px;
+        bottom: 2rem;
+    }
+}
