@@ -24,6 +24,11 @@ function Footer() {
         </li>
       </ul>
 
+      <div className="copyright">
+        <small>
+          &copy;2025 AMARQf, All right reserved.
+        </small>
+      </div>
     </footer>
   );
 }

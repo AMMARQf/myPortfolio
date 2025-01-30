@@ -64,11 +64,10 @@ function Contact() {
         <form ref={form} onSubmit={sendEmail}>
           <input
             type="text"
-            placeholder="Enter your Name"
+            placeholder="Enter your Name (Not Required)"
             name="name"
-            required
           />
-          <input type="email" placeholder="Enter your Email" name="email" />
+          <input type="email" placeholder="Enter your Email (Not Required)" name="email" />
           <textarea
             rows={10}
             name="message"

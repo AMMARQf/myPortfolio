@@ -27,12 +27,12 @@ function About() {
               <p>+2 years</p>
             </article>
             <article>
-              <VscFolderLibrary />
+              <FiUsers />
               <h4>Collaboration</h4>
               <p>Open to team-based projects</p>
             </article>
             <article>
-              <FiUsers />
+              <VscFolderLibrary />
               <h4>Projects</h4>
               <p>+40 Small and learning projects</p>
             </article>
