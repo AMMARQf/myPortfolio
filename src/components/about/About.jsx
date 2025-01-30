@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import MyPhoto from "../../assets/universityPhoto.jpg";
+import MyPhoto from "../../assets/universityPhoto.png";
 import MyPhoto2 from "../../assets/universityPhotoBandW.png";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";

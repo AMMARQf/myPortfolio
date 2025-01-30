@@ -166,8 +166,9 @@ h3 {
         width: 90%;
     }
     .home-image {
-        width: 380px;
-        height: 380px;
+
+        width: 20rem;
+        height: 20rem;
         margin: auto;
     }
 }

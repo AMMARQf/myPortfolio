@@ -5,7 +5,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import MyPhoto from '../../assets/myPhoto.png'
 import MyPhoto2 from '../../assets/myPhoto2.png'
-import CV from '../../assets/AmmarAlbqma.pdf'
+import CV from '../../assets/myCV.pdf'
 
 function Home() {
   return (
