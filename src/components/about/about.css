@@ -117,6 +117,7 @@ article p {
     .about-image {
         width: 100%;
         max-width: 570px;
+        height: 25rem;
     }
     .about-experience {
         flex-direction: column;
